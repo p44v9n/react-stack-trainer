@@ -16,7 +16,7 @@ const TabPage = () => {
       className="flex flex-col min-h-screen justify-between align-center"
     >
       <TabsContent
-        className="mx-4 flex flex-col justify-between align-center w-90 h-[85vh]"
+        className="mx-4 flex flex-col justify-between align-center w-90 max-w-[620px] mx-auto max-h-[1200px] h-[85vh]"
         value="home"
       >
         <div className="flex flex-row justify-between">
@@ -37,7 +37,7 @@ const TabPage = () => {
       <TabsContent className="mx-4" value="settings">
         <h1>settings</h1>
       </TabsContent>
-      <TabsList>
+      <TabsList className="max-w-[620px] mx-auto">
         <TabsTrigger value="home">
           <House size={16} />
           Home

@@ -4,7 +4,7 @@ import TabPage from "./TabPage";
 import Onboarding from "./Onboarding";
 
 function App() {
-  const [onboardingComplete, setOnboardingComplete] = useState(false);
+  const [onboardingComplete, setOnboardingComplete] = useState(true);
   return (
     <>
       {onboardingComplete && <TabPage />}
