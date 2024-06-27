@@ -24,14 +24,6 @@ body {
   min-height: 100vh;
 }
 
-#root {
-  /* min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
