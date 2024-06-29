@@ -1,13 +1,7 @@
-import {
-  BadgeInfo,
-  ChevronRight,
-  Cog,
-  Flame,
-  House,
-  LineChart,
-} from "lucide-react";
+import { Cog, House, LineChart } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
-import { Button } from "./components/ui/button";
+
+import HomeTab from "./HomeTab";
 
 const TabPage = () => {
   return (
@@ -15,21 +9,8 @@ const TabPage = () => {
       defaultValue="home"
       className="flex flex-col min-h-screen justify-between align-center"
     >
-      <TabsContent
-        className="mx-4 flex flex-col justify-between align-center w-90 max-w-[620px] mx-auto max-h-[1200px] h-[85vh]"
-        value="home"
-      >
-        <div className="flex flex-row justify-between">
-          <div className="flex flex-row">
-            <Flame />
-            &nbsp;32
-          </div>
-          <BadgeInfo />
-        </div>
-        <p>Learn the order of the cards</p>
-        <Button className="animate-bounce">
-          Start Now <ChevronRight />
-        </Button>
+      <TabsContent value="home">
+        <HomeTab />
       </TabsContent>
       <TabsContent className="mx-4" value="stats">
         <h1>stats</h1>

@@ -86,7 +86,7 @@ const Question = () => {
           </div>
         </div>
         <Button className="mt-8 w-full">
-          Continue <ChevronRight />
+          Check option {activeOption} <ChevronRight />
         </Button>
       </form>
     </div>
