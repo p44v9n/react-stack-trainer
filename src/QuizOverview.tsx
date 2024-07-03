@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 
-const QuizOverview = () => {
+const QuizProgress = () => {
   return (
     <ul className="list-none flex flex-row w-full justify-around">
       <ul className="list-none flex flex-row">
@@ -16,4 +16,4 @@ const QuizOverview = () => {
     </ul>
   );
 };
-export default QuizOverview;
+export default QuizProgress;

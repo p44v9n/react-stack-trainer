@@ -1,10 +1,11 @@
 import Question from "./Question";
-import QuizOverview from "./QuizOverview";
+import QuizProgress from "./QuizOverview";
+import IntroNewCard from "./IntroNewCard";
 
 const Quiz = () => {
   return (
     <>
-      <QuizOverview />
+      <QuizProgress />
       <Question />
     </>
   );

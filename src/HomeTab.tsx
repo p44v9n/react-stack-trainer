@@ -4,13 +4,10 @@ import { Button } from "./components/ui/button";
 import Quiz from "./Quiz";
 
 const HomeTab = () => {
-  const [startQuiz, setStartQuiz] = useState(false);
-
+  
   return (
     <>
-      {startQuiz && <Quiz />}
-      {!startQuiz && (
-        <div className="mx-4 flex flex-col justify-between align-center w-90 max-w-[620px] mx-auto max-h-[1200px] h-[85vh]">
+        <div className="mx-4 mt-2 flex flex-col justify-between align-center w-90 max-w-[620px] max-h-[1200px] h-[85vh]">
           <div className="flex flex-row justify-between">
             <div className="flex flex-row">
               <Flame />

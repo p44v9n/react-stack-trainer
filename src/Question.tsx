@@ -10,7 +10,7 @@ const Question = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen justify-around align-center max-w-[620px] mx-4 max-h-[1200px] h-[90vh]">
+    <div className="flex flex-col justify-around align-center max-w-[620px] mx-4 max-h-[1200px]">
       <h3 className="text-xl">
         What position is the <strong>4 of clubs?</strong>
       </h3>

@@ -5,7 +5,7 @@ import Onboarding from "./Onboarding";
 // import Quiz from "./Quiz";
 
 function App() {
-  const [onboardingComplete, setOnboardingComplete] = useState(false);
+  const [onboardingComplete, setOnboardingComplete] = useState(true);
   return (
     <>
       {onboardingComplete && <TabPage />}
